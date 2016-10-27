@@ -1,14 +1,14 @@
-# ExampleProject
+# {{project}}
 
-[![Build Status](https://travis-ci.org/reasonml/ExampleProject.svg?branch=master)](https://travis-ci.org/reasonml/ExampleProject)
+[![Build Status](https://travis-ci.org/{{username}}/{{repository}}.svg?branch=master)](https://travis-ci.org/{{username}}/{{repository}})
 
 > Note: Usage via Yarn may not work completely yet.
 
 # Reason via `yarn`
 
-Example project using Reason as an `yarn` dependency.
+The project using Reason as an `yarn` dependency.
 
-(For instructions with npm, see [Reason via npm](https://github.com/reasonml/ExampleProject/blob/master/README-NPM.md))
+(For instructions with npm, see [Reason via npm](https://github.com/{{username}}/{{repository}}/blob/master/README-NPM.md))
 
 ## Install yarn:
 
@@ -20,8 +20,8 @@ npm install -g yarn
 
 ## Get started:
 ```sh
-git clone https://github.com/reasonml/ExampleProject.git
-cd ExampleProject
+git clone https://github.com/{{username}}/{{repository}}.git
+cd {{repository}}
 yarn cache clean # need to clean every time before installation, see https://github.com/yarnpkg/yarn/issues/480
 yarn install
 yarn reasonbuild
