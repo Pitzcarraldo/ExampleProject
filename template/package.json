@@ -1,5 +1,5 @@
 {
-  "name": "{{project}}",
+  "name": "{{repository}}",
   "version": "{{version}}",
   "description": "{{description}}",
   "repository": {

@@ -4,9 +4,10 @@
 
 [![Build Status](https://travis-ci.org/Pitzcarraldo/gimme-reason.svg?branch=master)](https://travis-ci.org/Pitzcarraldo/gimme-reason)
 
+> *Gimme a Reason - Raven*
+
 [![Gimme A Reason](https://img.youtube.com/vi/T8Lq7lOm4OY/0.jpg)](https://www.youtube.com/watch?v=T8Lq7lOm4OY)
 
-> *Gimme a Reason - Raven*
 
 ### Need Any Reason?
 

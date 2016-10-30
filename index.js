@@ -77,7 +77,7 @@ prompt([
   const targetDir = path.resolve(process.cwd(), vars.repository);
   return targetDir;
 }).then(function (targetDir) {
-  const templateDir = path.resolve('template');
+  const templateDir = path.resolve(__dirname, 'template');
   copyTemplateDir(templateDir, targetDir, vars, function (err, createdFiles) {
     if (err) {
       throw err;
@@ -86,6 +86,5 @@ prompt([
   });
 }).catch(function (error) {
   console.error(error);
-  console.error(error.stack);
   process.exit(1);
 });
